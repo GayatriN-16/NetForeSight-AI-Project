@@ -1,0 +1,22 @@
+{
+  "source": "https://cse-cic-ids2018.s3.amazonaws.com/Processed%20Traffic%20Data%20for%20ML%20Algorithms/Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv",
+  "original_filename": "Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv",
+  "full_file_rows": 579711,
+  "selected_row_range": {
+    "start": 331836,
+    "end": 579710,
+    "total_rows": 247875
+  },
+  "timestamp_range": {
+    "start": "28/02/2018 03:37:04",
+    "end": "28/02/2018 12:50:05"
+  },
+  "label_distribution": {
+    "Benign": 192341,
+    "Infilteration": 55534
+  },
+  "nan_columns_in_slice": {
+    "Flow Byts/s": 1644
+  },
+  "preprocessing": "Dropped 1 repeated-header row (Label=='Label') and 1 NaN-label row. Selected a contiguous slice starting 50,000 rows before the first Infilteration row through 10,000 rows after the last Infilteration row, preserving original timestamp order. Original label values preserved without renaming (dataset label is 'Infilteration')."
+}
